@@ -2,7 +2,6 @@ import { SET_USER } from '../actions';
 
 import _ from 'lodash';
 
-
 const arrayToObject = (array, keyField) =>
    array.reduce((obj, item) => {
      obj[item[keyField]] = item

@@ -12,7 +12,7 @@ class TopPercentile extends Component {
     render() {
             return(
                 <div className="rankStats" id="rankStatTopPercentile">
-                    <p>{this.props.topPercentile}</p>
+                    <p>{this.props.topPercentile}%</p>
                     <h3>Top Percentile</h3>
                 </div>
             )
